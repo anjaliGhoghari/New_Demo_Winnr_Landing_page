@@ -11,7 +11,7 @@ function ContestFormatsSection() {
                         <h2 className='sm:mb-2'>Contest formats</h2>
                         <p className=''>High Tempo, High Stakes. Always Fresh.</p>
                     </div>
-                    <div> <video className=' w-full h-full' autoPlay
+                    <div> <video className='w-full h-full' autoPlay
                         loop
                         muted
                         playsInline
