@@ -40,7 +40,7 @@ function HIWSection() {
   const PrevArrow = ({ onClick }) => (
 
     <button
-      className={`w-8 h-8 sm:w-4 sm:h-4 rounded-[9px] sm:rounded-[5px] flex items-center justify-center shadow-md transition-colors duration-100 
+      className={`w-8 h-8 rounded-[9px] sm:rounded-[5px] flex items-center justify-center shadow-md transition-colors duration-100 
           ${isActive ? 'bg-[#5EFB7E]' : 'bg-darkGreen'
         }`}
       onClick={() => {
@@ -69,7 +69,7 @@ function HIWSection() {
 
     return (
       <button
-        className={`w-8 h-8 sm:w-4 sm:h-4  rounded-[9px] sm:rounded-[5px] flex items-center justify-center shadow-md transition-colors duration-200 ${isActive ? 'bg-[#5EFB7E]' : 'bg-darkGreen'}`}
+        className={`w-8 h-8  rounded-[9px] sm:rounded-[5px] flex items-center justify-center shadow-md transition-colors duration-200 ${isActive ? 'bg-[#5EFB7E]' : 'bg-darkGreen'}`}
         onClick={() => {
           setActiveArrow('next');
           onClick();
@@ -121,8 +121,8 @@ function HIWSection() {
       <section className='container' id='how-it-works'>
         <div className=' py-28 sm:py-12 sm:pt-24'>
           <div className='flex justify-between items-center text-center'>
-            <h2 className='sm:mb-2'>How it works</h2>
-            <div className='flex border border-darkGreen p-2 rounded-[14px] gap-2 sm:p-1 sm:rounded-lg sm:gap-1'>
+            <h2 className='mb-2'>How it works</h2>
+            <div className='flex border border-darkGreen p-2 rounded-[14px] gap-2 '>
               <PrevArrow onClick={() => sliderRef.current?.slickPrev()} />
               <NextArrow onClick={() => sliderRef.current?.slickNext()} />
             </div>
@@ -135,8 +135,8 @@ function HIWSection() {
               <div key={index} className="pr-8 sm:pr-3 w-[300px]">
                 <div className="rounded-[32px] sm:rounded-3xl overflow-hidden h-[478px] flex flex-col justify-between sm:w-[150px] sm:h-[284px] sm:min-w-[240px]" style={{ background: item.gradiant }}>
                   <div className="pt-12 px-12 sm:pt-7 sm:px-7">
-                    <h5 className='text-white sm:mb-2'>{item.title}</h5>
-                    <p className="text-[#9FB68D] max-w-[287px] sm:max-w-[167px] tracking-wider mb-5 sm:leading-none">{item.description}</p>
+                    <h5 className='text-white mb-2'>{item.title}</h5>
+                    <p className="text-[#a9a8a8] max-w-[287px] sm:max-w-[167px] mb-5 sm:leading-none leading-1">{item.description}</p>
                   </div>
                   <div className="flex items-end">
                     <img className="w-full" src={item.image} alt={item.title} />

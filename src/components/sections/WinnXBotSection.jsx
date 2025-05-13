@@ -17,7 +17,7 @@ function WinnXBotSection() {
                     <div
                         className=" basis-1/2  rounded-[32px] sm:rounded-3xl"
                         style={{ background: `linear-gradient(180deg, #5EFB7E 0%, #ADFA3C 100%)`, }}>
-                     <div className=' pt-12 px-12 sm:pt-7 sm:px-7' >
+                     <div className=' pt-12 px-12 md:pt-7 md:px-7' >
                             <div className='flex gap-1'>
                                 <h3 className=''>
                                     Winnr X Bot</h3>
@@ -28,7 +28,7 @@ function WinnXBotSection() {
                         <div className='flex justify-center'>
                             <img className='w-[90%] ' src={leftCard}></img>
                         </div>
-                        <div className='flex gap-3 flex-col -mt-3 mx-12 mb-12 sm:gap-[2px] sm:mx-7 sm:mt-2 sm:mb-8 '>
+                        <div className='flex gap-3 flex-col -mt-3 mx-12 mb-12 sm:gap-[2px] md:mx-7 md:mt-2 md:mb-8 '>
                             <div className='flex gap-1'>
                                 <img src={live} className='sm:max-w-[16px]' />
                                 <h5 className='font-semibold '>The bot creates a live contest</h5>
@@ -46,7 +46,7 @@ function WinnXBotSection() {
                     <div
                                 className=" basis-1/2  rounded-[32px] sm:rounded-3xl]"
                                 style={{ background: 'linear-gradient(0deg, #00FED0 0%, #01A8ED 100%)' }}>
-                                <div className='pt-12 px-12 sm:pt-7 sm:px-7'>
+                                <div className='pt-12 px-12 md:pt-7 md:px-7'>
                                 <h3>
                                     Invite & Earn
                                 </h3>
@@ -54,7 +54,7 @@ function WinnXBotSection() {
                                 <div className='flex justify-center'>
                                     <img className='w-[90%] ' src={RightCard}></img>
                                 </div>
-                                <div className='flex gap-3 sm:gap-[2px] flex-col sm:mx-7 sm:mt-2 mt-10 sm:mb-8 mx-12'>
+                                <div className='flex gap-3 sm:gap-[2px] flex-col md:mx-7 md:mt-2 mt-10 md:mb-8 mx-12'>
                                     <div className='flex gap-1'>
                                         <img src={addUser} className='sm:max-w-[16px]'/>
                                         <h5 className='font-semibold'>Invite friends to contests</h5>

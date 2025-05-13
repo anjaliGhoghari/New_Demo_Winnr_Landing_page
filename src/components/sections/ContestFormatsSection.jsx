@@ -8,7 +8,7 @@ function ContestFormatsSection() {
             <section className='container' id='contest-format'>
                 <div className='py-20 sm:py-12'>
                     <div className='flex flex-col'>
-                        <h2 className='sm:mb-2'>Contest formats</h2>
+                        <h2 className='mb-2'>Contest formats</h2>
                         <p className=''>High Tempo, High Stakes. Always Fresh.</p>
                     </div>
                     <div> <video className='w-full h-full' autoPlay

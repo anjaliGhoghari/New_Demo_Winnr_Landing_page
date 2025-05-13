@@ -9,7 +9,7 @@ export default {
       screens: {
         xl: { max: "1279px" }, // 1279 and below
         lg: { max: "1023px" }, // 1023 and below
-        md: { max: "767px" },  // 767 and below
+        md: { max: "768px" },  // 767 and below
         sm: { max: "639px" },  // 639 and below
       },
       
@@ -26,8 +26,7 @@ export default {
     },
     keyframes: {
       fadeIn: {
-        '0%': { opacity: '0', transform: 'translateY(-5px)' },
-        '100%': { opacity: '1', transform: 'translateY(0)' },
+        '0%': { opacity: '0', transform: 'translateY(-5px)' }
       },
     },
 
