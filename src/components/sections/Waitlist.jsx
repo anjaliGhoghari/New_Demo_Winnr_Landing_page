@@ -14,7 +14,6 @@ function Waitlist() {
                                 Join the waitlist to compete, earn, and shape the future of attention-based rewards.
                             </h5>
                         </div>
-                        
                             <div className=" bg-[#75CF49] rounded-2xl items-center flex pr-2 py-2 sm:py-1 w-full max-w-[800px]">
                                 <input
                                     type="email"

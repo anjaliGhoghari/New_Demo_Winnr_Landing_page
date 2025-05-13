@@ -7,7 +7,7 @@ import ShadowBlack from '../../assets/images/ShadowBlack.png'
 function HeroSection() {
     return (
         <>
-            <section className='container pb-28' >
+            <section className='container pb-28' id='hero-section' >
                 <div className='relative'>
                     <img
                         src={HeroImage}
@@ -20,7 +20,7 @@ function HeroSection() {
                             Make the Right Picks Win Real Rewards
                         </h1>
                         <p className='mb-10 md:mb-8 max-w-[518px] md:max-w-[256px] md:leading-tight leading-7'>Your instincts already follow the right tokens, trends, and memes. Now get rewarded for it.</p>
-                        <a className='btn btn-green' href="" ><span className='text-gradiant-green sm:text-xs'> Browse Live Contests</span></a>
+                        <a className='btn btn-green'  href="http://app.winnr.fun/" ><span className='text-gradiant-green sm:text-xs'> Browse Live Contests</span></a>
                     </div>
                 </div>
 

@@ -5,7 +5,7 @@ import contestFormatsSectionMP4 from '../../assets/video/contestFormatsSectionMP
 function ContestFormatsSection() {
     return (
         <>
-            <section className='container'>
+            <section className='container' id='contest-format'>
                 <div className='py-20 sm:py-12'>
                     <div className='flex flex-col'>
                         <h2 className='sm:mb-2'>Contest formats</h2>
