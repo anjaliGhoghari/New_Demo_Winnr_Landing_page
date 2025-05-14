@@ -40,7 +40,7 @@ h3 {
 }
 
 h4 {
-    @apply font-bold text-[2rem];
+    @apply font-semibold text-[2rem];
     @screen lg {
         @apply text-[1.75rem];
       }
@@ -53,7 +53,7 @@ h4 {
 }
 
 h5 {
-    @apply font-normal text-[1.5rem];
+    @apply font-normal text-[1.5rem] tracking-wider;
     @screen lg {
         @apply text-[1rem];
       }

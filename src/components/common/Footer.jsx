@@ -10,7 +10,7 @@ function Footer() {
         <div className='py-20 sm:py-12' >
                     <div className='flex sm:flex-col justify-between mb-[300px] sm:mb-[150px]'>
                         <div>
-                            <a> <img className='w-100 max-w-[118px] sm:max-w-[55px]  cursor-pointer mb-7 sm:mb-2 ' src={logo} /></a>
+                            <a> <img className='w-100 max-w-[104px] sm:max-w-[55px]  cursor-pointer mb-7 sm:mb-2 ' src={logo} /></a>
                             <p className='max-w-[438px] sm:mb-10'>We run fast-paced contests around tokens, trends, ecosystems, and even real-world events where users draft picks and win USDC based on live performance.</p>
                         </div>
                         <div className='flex text-right sm:text-left sm:gap-10 gap-20 '>

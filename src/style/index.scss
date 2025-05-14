@@ -13,8 +13,6 @@
   }
   a{
     @apply cursor-pointer hover:text-slate-300;
-    
-
   }
 }
 //container 
@@ -50,7 +48,7 @@
 
   .btn{
     @apply leading-3 px-6 py-4 sm:py-[10px] sm:px-3
-    font-bold border rounded-xl;
+    font-bold border rounded-2xl;
     
     &.btn-green{
       @apply border-perrotGreen bg-darkGreen hover:bg-[#103900c4];

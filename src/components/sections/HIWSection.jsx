@@ -98,7 +98,7 @@ function HIWSection() {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    speed: 500,  
+    speed: 500,
     dots: true,
     arrows: false,
     variableWidth: true,
@@ -120,31 +120,38 @@ function HIWSection() {
     <>
       <section className='container' id='how-it-works'>
         <div className=' py-28 md:py-12'>
-          <div className='flex justify-between items-center text-center'>
-            <h2 className='mb-2'>How it works</h2>
-            <div className='flex border border-darkGreen p-2 rounded-[14px] gap-2 '>
-              <PrevArrow onClick={() => sliderRef.current?.slickPrev()} />
-              <NextArrow onClick={() => sliderRef.current?.slickNext()} />
-            </div>
+          <div className='flex justify-between items-baseline text-center'>
+            <div className='flex flex-col items-start align-top gap-2'>
+              <h2>How it works</h2>
+              <p>Play on Conviction, Not Charts.</p>
+              </div>
+         
+
+          <div className='flex items-baseline border border-darkGreen p-2 rounded-[14px] gap-2 '>
+            <PrevArrow onClick={() => sliderRef.current?.slickPrev()} />
+            <NextArrow onClick={() => sliderRef.current?.slickNext()} />
           </div>
-          <div>
-            <p className='text-lightGray '>Play on Conviction, Not Charts.</p></div>
-        <div className='slider-container'>
-          <Slider ref={sliderRef} {...settings} className="mt-16 sm:mt-8">
-            {CardList.map((item, index) => (
-              <div key={index} className="pr-8 sm:pr-3 w-[300px]">
-                <div className="rounded-[32px] sm:rounded-3xl overflow-hidden h-[478px] flex flex-col justify-between sm:w-[150px] sm:h-[284px] sm:min-w-[240px]" style={{ background: item.gradiant }}>
-                  <div className="pt-12 px-12 sm:pt-7 sm:px-7">
-                    <h5 className='text-white mb-2'>{item.title}</h5>
-                    <p className="text-[#a9a8a8] max-w-[287px] sm:max-w-[167px] mb-5 sm:leading-none leading-1">{item.description}</p>
-                  </div>
-                  <div className="flex items-end">
-                    <img className="w-full" src={item.image} alt={item.title} />
+          </div>
+       
+        <div>
+
+          <div className='slider-container'>
+            <Slider ref={sliderRef} {...settings} className="mt-16 sm:mt-8">
+              {CardList.map((item, index) => (
+                <div key={index} className="pr-8 sm:pr-3 w-[300px]">
+                  <div className="rounded-[32px] sm:rounded-3xl overflow-hidden h-[478px] flex flex-col justify-between sm:w-[150px] sm:h-[284px] sm:min-w-[240px]" style={{ background: item.gradiant }}>
+                    <div className="pt-12 px-12 sm:pt-7 sm:px-7">
+                      <h5 className='text-white mb-2'>{item.title}</h5>
+                      <p className="text-[#a9a8a8] max-w-[287px] sm:max-w-[167px] mb-5 sm:leading-none leading-1">{item.description}</p>
+                    </div>
+                    <div className="flex items-end">
+                      <img className="w-full" src={item.image} alt={item.title} />
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </Slider>
+              ))}
+            </Slider>
+          </div>
         </div>
         </div>
       </section>
