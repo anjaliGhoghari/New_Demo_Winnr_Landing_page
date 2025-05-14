@@ -14,8 +14,8 @@ function HeroSection() {
                         className="md:mt-0 -mt-10 w-full"
                     />
                     <div
-                        className="flex items-center flex-col text-center text-white relative bg-[#060B0F] rounded-xl max-w-[90%] h-auto md:max-w-[80%] lg:-mt-44 mx-auto "
-                        style={{boxShadow: '0px clamp(-80px, -10vw, -70px) 60px #060B0F', marginTop: 'clamp(-141px, -20px - 4vw, -27px);'}}
+                        className="flex items-center flex-col text-center text-white relative bg-[#060B0F] mt-[calc(-70px-5vw)] sm:mt-[calc(-12px-5vw)] rounded-xl max-w-[90%] h-auto md:max-w-[80%] mx-auto "
+                        style={{boxShadow: '0px clamp(-80px, -10vw, -70px) 60px #060B0F'}}
                     >
                         <h1 className="mb-4 md:mb-3 max-w-[802px] sm:max-w-[357px]  md:max-w-[540px]">
                             Make the Right Picks Win Real Rewards
