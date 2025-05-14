@@ -119,7 +119,7 @@ function HIWSection() {
   return (
     <>
       <section className='container' id='how-it-works'>
-        <div className=' py-28 sm:py-12 sm:pt-24'>
+        <div className=' py-28 md:py-12'>
           <div className='flex justify-between items-center text-center'>
             <h2 className='mb-2'>How it works</h2>
             <div className='flex border border-darkGreen p-2 rounded-[14px] gap-2 '>

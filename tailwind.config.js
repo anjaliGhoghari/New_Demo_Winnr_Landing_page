@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      
       screens: {
         xl: { max: "1279px" }, // 1279 and below
         lg: { max: "1023px" }, // 1023 and below
