@@ -6,8 +6,8 @@ import { Link } from 'react-scroll';
 function Header() {
   return (
    <>
-     <header className='sticky z-50 top-0 bg-darkBg'>
-        <div className='container py-6 sm:py-4 '>
+     <header className=' py-6 sm:py-4 sticky z-50 top-0 bg-darkBg'>
+        <div className='container'>
         <div className='flex justify-between items-center'>
         
         <Link to="hero-section" smooth={true} duration={700}><img className='max-w-[104px] w-100 cursor-pointer sm:max-w-[55px]' src={logo} alt='logo' /></Link>

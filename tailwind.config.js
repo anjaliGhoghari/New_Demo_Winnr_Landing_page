@@ -6,14 +6,13 @@ export default {
   ],
   theme: {
     extend: {
-      
       screens: {
         xl: { max: "1279px" }, // 1279 and below
         lg: { max: "1023px" }, // 1023 and below
         md: { max: "768px" },  // 767 and below
         sm: { max: "639px" },  // 639 and below
       },
-      
+
       colors: {
         darkBg: '#060B0F',
         lightGray: '#737373',
@@ -35,6 +34,6 @@ export default {
       fadeIn: 'fadeIn 0.7s ease-out forwards',
     },
   },
-  plugins: [],
+  plugins: [ ],
 }
 

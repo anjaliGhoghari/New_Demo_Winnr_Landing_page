@@ -6,8 +6,8 @@ import HeroImage from "../../assets/images/HeroImage.png"
 function HeroSection() {
     return (
         <>
-            <section className='container pb-20 md:pb-10' id='hero-section' >
-                <div className='relative'>
+            <section className='pb-20 md:pb-10' id='hero-section' >
+                <div className='relative container'>
                     <img
                         src={HeroImage}
                         alt="HeroImage"

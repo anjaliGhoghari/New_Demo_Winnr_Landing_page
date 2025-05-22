@@ -10,6 +10,7 @@
   }
   body{
     @apply bg-darkBg;
+    
   }
   a{
     @apply cursor-pointer hover:text-slate-300;
@@ -23,18 +24,14 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 1512px;
-    padding-left: 18px;
-    padding-right: 18px;
-    
+    max-width: 1288px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     @media (min-width: 768px) {
-      padding-left: 48px;
-      padding-right: 48px;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
-    @media (min-width: 1024px) {
-      padding-left: 96px;
-      padding-right: 96px;
-    }
+    
   }
 }
 

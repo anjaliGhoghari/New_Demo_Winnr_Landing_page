@@ -118,9 +118,9 @@ function HIWSection() {
 
   return (
     <>
-      <section className='container' id='how-it-works'>
-        <div className=' py-28 md:py-12'>
-          <div className='flex justify-between items-baseline text-center'>
+      <section className='py-28 md:py-12' id='how-it-works'>
+        <div className='container '>
+          <div className='flex justify-between items-start md:items-center text-center'>
             <div className='flex flex-col items-start align-top gap-2'>
               <h2>How it works</h2>
               <p>Play on Conviction, Not Charts.</p>
@@ -132,7 +132,6 @@ function HIWSection() {
             <NextArrow onClick={() => sliderRef.current?.slickNext()} />
           </div>
           </div>
-       
         <div>
 
           <div className='slider-container'>

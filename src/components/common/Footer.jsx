@@ -1,13 +1,13 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png';
 import footer1 from '../../assets/images/footer-1.png';
-import footer2 from '../../assets/images/footer-2.png';
+import footer2 from '../../assets/images/footer2.png';
 
 function Footer() {
-  return (
-    <>
-        <footer className='container'>
-        <div className='py-20 sm:py-12' >
+    return (
+        <>
+            <footer className=' pt-20 sm:pt-12'>
+                <div className='container' >
                     <div className='flex sm:flex-col justify-between mb-[300px] sm:mb-[150px]'>
                         <div>
                             <a> <img className='w-100 max-w-[104px] sm:max-w-[55px]  cursor-pointer mb-7 sm:mb-2 ' src={logo} /></a>
@@ -19,8 +19,8 @@ function Footer() {
                                     Legal
                                 </h5>
                                 <ul className='text-lightGray flex flex-col gap-3 sm:gap-1 font-light'>
-                                    <a><li>Terms & Conditions</li></a>
-                                    <a><li>Privacy Policy</li></a>
+                                    <li><a>Terms & Conditions</a></li>
+                                    <li><a>Privacy Policy</a></li>
                                 </ul>
                             </div>
                             <div>
@@ -28,28 +28,31 @@ function Footer() {
                                     Quick Links
                                 </h5>
                                 <ul className='text-lightGray flex flex-col gap-3 sm:gap-1 font-light'>
-                                    <a href='https://winnr.gitbook.io/docs'><li>Docs</li></a>
-                                    <a href='https://t.me/winnrfun'><li>Telegram</li></a>
-                                    <a href='https://x.com/winnrdotfun'><li>Twitter/X</li></a>
+                                    <li><a href='https://winnr.gitbook.io/docs'>Docs</a></li>
+                                    <li><a href='https://t.me/winnrfun'>Telegram</a></li>
+                                    <li> <a href='https://x.com/winnrdotfun'>Twitter/X</a></li>
                                 </ul>
                             </div>
 
                         </div>
                     </div>
-                    <div className='w-full relative flex flex-col items-center text-center justify-center'>
-                        <img src={footer1} className=' sm:max-w-[226px] absolute bottom-0' />
-                        <img src={footer2} />
+                </div>
+                <div className='relative flex justify-center items-center w-full'>
+                    <img src={footer2} className='w-full max-w-[2000px]' />
+                    <img src={footer1} className="absolute bottom-2 sm:w-[200px] w-[552px]"
+ />
 
-                    </div>
+                </div>
 
+                <div className='container'>
                     <div className='sm:p-3'>
-                        <p className='absolute mt-8 bottom-8'>© 2025 Winnr • Built on Solana</p>
+                        <p className='absolute mt-4 bottom-10'>© 2025 Winnr • Built on Solana</p>
                     </div>
                 </div>
-           
-        </footer>
-    </>
-  )
+
+            </footer>
+        </>
+    )
 }
 
 export default Footer

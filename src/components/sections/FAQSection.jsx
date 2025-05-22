@@ -32,11 +32,12 @@ function FAQSection() {
     };
     return (
         <>
-            <section className='container py-20 sm:py-12'>
-                <h2 className='mb-[72px] sm:mb-7'>FAQs</h2>
-                <div>
+            <section className='py-20 sm:py-12'>
+                <div className='container'>
+                    <h2 className='mb-[72px] sm:mb-7'>FAQs</h2>
+                    <div>
                         {FAQList.map((item, index) => {
-                           
+
                             return (
                                 <div key={index} className="group text-white">
                                     <div className="items-center py-11 sm:py-6 text-center border-t border-gray-900 cursor-pointer">
@@ -55,7 +56,7 @@ function FAQSection() {
                                             className={`overflow-hidden transition-all duration-500 ease-in-out ${openIndex === index ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
                                                 }`}
                                         >
-                                            <h5 className="text-start text-gray-500 pr-2  xs:px-0">
+                                            <h5 className="text-start text-gray-500 pr-2 mt-2 xs:px-0">
                                                 {item.answer}
                                             </h5>
                                         </div>
@@ -65,6 +66,7 @@ function FAQSection() {
                             );
                         })}
                     </div>
+                </div>
             </section>
         </>
     )
